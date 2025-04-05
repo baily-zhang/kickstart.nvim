@@ -886,5 +886,4 @@ require('lazy').setup({
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
 vim.opt.relativenumber = true
-vim.keymap.set('n', '<leader>k', vim.diagnostic.open_float)
 vim.api.nvim_set_hl(0, 'ErrorMsg', { fg = 'white' })

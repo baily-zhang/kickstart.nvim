@@ -167,6 +167,15 @@ require('lazy').setup({
       },
     },
   },
+  {
+    'RRethy/vim-illuminate',
+    config = function()
+      vim.cmd 'hi IlluminatedWordText guibg=#44475a'
+      vim.cmd 'hi IlluminatedWordRead guibg=#44475a'
+      vim.cmd 'hi IlluminatedWordWrite guibg=#44475a'
+    end,
+  },
+
   -- NOTE: Plugins can also be configured to run Lua code when they are loaded.
   --
   -- This is often very useful to both group configuration, as well as handle
